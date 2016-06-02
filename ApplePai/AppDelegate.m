@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LRootViewController.h"
+#import "LFirstViewController.h"
+#import "LSecondViewController.h"
+#import "LThirdViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,6 +19,36 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+      self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    LFirstViewController *firstVC = [[LFirstViewController alloc]init];
+    LSecondViewController *secondVC = [[LSecondViewController alloc]init];
+    LThirdViewController *thirdVC = [[LThirdViewController alloc]init];
+    
+    UITabBarController *tabVC = [[UITabBarController alloc]init];
+    tabVC.viewControllers = @[[[UINavigationController alloc]initWithRootViewController:firstVC],[[UINavigationController alloc]initWithRootViewController:secondVC],[[UINavigationController alloc]initWithRootViewController:thirdVC]];
+    
+    //    设置tabBar类型（也就是颜色 黑，白）
+    tabVC.tabBar.barStyle = UIBarStyleBlack;
+    //    设置tabBar的半透明度
+    tabVC.tabBar.translucent = NO;
+    //    设置tabBar的颜色
+    tabVC.tabBar.barTintColor = [UIColor whiteColor];
+    //    设置tabBar镂空部分的颜色
+    tabVC.tabBar.tintColor = [UIColor redColor];
+    
+    NSArray *arr = @[@"逛吃",@"食物百科",@"我的"];
+    NSArray *image = @[@"home",@"search",@"my"];
+    for (int i=0; i<arr.count; i++) {
+        UIViewController *VC = tabVC.viewControllers[i];
+        UITabBarItem *item = [[UITabBarItem alloc]initWithTitle:arr[i] image:[[UIImage imageNamed:[NSString stringWithFormat:@"ic_tab_%@_default.png",image[i]]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:[[UIImage imageNamed:[NSString stringWithFormat:@"ic_tab_%@_highlight.png",image[i]]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+        VC.tabBarItem = item;
+    }
+    self.window.rootViewController = tabVC;
+    [self.window makeKeyAndVisible];
+    return YES;
+
+
     // Override point for customization after application launch.
     return YES;
 }
