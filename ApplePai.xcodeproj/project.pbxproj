@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		253A3DD16E453A8B092D49E5 /* libPods-ApplePai.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8707E695785D9D9366E208E8 /* libPods-ApplePai.a */; };
+		C7395A021D06B0E3008C00CC /* LSecondGroupMOdel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7395A011D06B0E3008C00CC /* LSecondGroupMOdel.m */; settings = {ASSET_TAGS = (); }; };
+		C7395A0D1D06B4D4008C00CC /* LSecondCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7395A0B1D06B4D4008C00CC /* LSecondCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		C7395A0E1D06B4D4008C00CC /* LSecondCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7395A0C1D06B4D4008C00CC /* LSecondCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		C75C258C1D01833B00EE422E /* LTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75C258B1D01833B00EE422E /* LTabBarViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C75C258F1D0198F500EE422E /* LFirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C75C258E1D0198F500EE422E /* LFirstTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		C75C25981D043DB000EE422E /* Foundation+Log 2.m in Sources */ = {isa = PBXBuildFile; fileRef = C75C25971D043DB000EE422E /* Foundation+Log 2.m */; settings = {ASSET_TAGS = (); }; };
+		C75C259B1D044DF500EE422E /* LFirst2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75C259A1D044DF500EE422E /* LFirst2ViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C7B8AA811D002E94003B3EAF /* CCXMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B8AA7C1D002E94003B3EAF /* CCXMethods.m */; settings = {ASSET_TAGS = (); }; };
 		C7B8AA821D002E94003B3EAF /* LRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B8AA7E1D002E94003B3EAF /* LRootViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C7B8AA831D002E94003B3EAF /* LSuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B8AA801D002E94003B3EAF /* LSuperViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C7B8AA891D004A6A003B3EAF /* LFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B8AA881D004A6A003B3EAF /* LFirstViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C7B8AA8C1D004A7B003B3EAF /* LSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B8AA8B1D004A7B003B3EAF /* LSecondViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C7B8AA8F1D005273003B3EAF /* LThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B8AA8E1D005273003B3EAF /* LThirdViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C7C5919C1D01716D001EEF31 /* FeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C5919B1D01716D001EEF31 /* FeedModel.m */; settings = {ASSET_TAGS = (); }; };
 		C7CB25591D001405004FECA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CB25581D001405004FECA8 /* main.m */; };
 		C7CB255C1D001405004FECA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CB255B1D001405004FECA8 /* AppDelegate.m */; };
 		C7CB255F1D001405004FECA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CB255E1D001405004FECA8 /* ViewController.m */; };
@@ -22,6 +30,13 @@
 		C7CB25671D001405004FECA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CB25651D001405004FECA8 /* LaunchScreen.storyboard */; };
 		C7CB25721D001406004FECA8 /* ApplePaiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CB25711D001406004FECA8 /* ApplePaiTests.m */; };
 		C7CB257D1D001406004FECA8 /* ApplePaiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CB257C1D001406004FECA8 /* ApplePaiUITests.m */; };
+		C7EABDEF1D06DD400049FBD7 /* LHeaderCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EABDED1D06DD400049FBD7 /* LHeaderCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		C7EABDF01D06DD400049FBD7 /* LHeaderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7EABDEE1D06DD400049FBD7 /* LHeaderCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		C7EABDF31D07AE690049FBD7 /* LSecond2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EABDF21D07AE690049FBD7 /* LSecond2ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C7EABDF91D07B01F0049FBD7 /* LSecond2FoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EABDF81D07B01F0049FBD7 /* LSecond2FoodModel.m */; settings = {ASSET_TAGS = (); }; };
+		C7EABDFE1D07C7C00049FBD7 /* ico_make.png in Resources */ = {isa = PBXBuildFile; fileRef = C7EABDFB1D07C7C00049FBD7 /* ico_make.png */; settings = {ASSET_TAGS = (); }; };
+		C7EABDFF1D07C7C00049FBD7 /* JSDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EABDFD1D07C7C00049FBD7 /* JSDropDownMenu.m */; settings = {ASSET_TAGS = (); }; };
+		C7EABE021D07FF500049FBD7 /* LFoodTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EABE011D07FF500049FBD7 /* LFoodTypeModel.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +60,19 @@
 		261B2794081E899B0CBF16A6 /* Pods-ApplePai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplePai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApplePai/Pods-ApplePai.debug.xcconfig"; sourceTree = "<group>"; };
 		8707E695785D9D9366E208E8 /* libPods-ApplePai.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ApplePai.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FAC3813AB6A27987A4479BE /* Pods-ApplePai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplePai.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApplePai/Pods-ApplePai.release.xcconfig"; sourceTree = "<group>"; };
+		C7395A001D06B0E3008C00CC /* LSecondGroupMOdel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSecondGroupMOdel.h; sourceTree = "<group>"; };
+		C7395A011D06B0E3008C00CC /* LSecondGroupMOdel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSecondGroupMOdel.m; sourceTree = "<group>"; };
+		C7395A0A1D06B4D4008C00CC /* LSecondCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSecondCollectionViewCell.h; sourceTree = "<group>"; };
+		C7395A0B1D06B4D4008C00CC /* LSecondCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSecondCollectionViewCell.m; sourceTree = "<group>"; };
+		C7395A0C1D06B4D4008C00CC /* LSecondCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSecondCollectionViewCell.xib; sourceTree = "<group>"; };
+		C75C258A1D01833B00EE422E /* LTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTabBarViewController.h; sourceTree = "<group>"; };
+		C75C258B1D01833B00EE422E /* LTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTabBarViewController.m; sourceTree = "<group>"; };
+		C75C258D1D0198F500EE422E /* LFirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFirstTableViewCell.h; sourceTree = "<group>"; };
+		C75C258E1D0198F500EE422E /* LFirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFirstTableViewCell.m; sourceTree = "<group>"; };
+		C75C25961D04180600EE422E /* DEFINE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEFINE.h; sourceTree = "<group>"; };
+		C75C25971D043DB000EE422E /* Foundation+Log 2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log 2.m"; sourceTree = "<group>"; };
+		C75C25991D044DF500EE422E /* LFirst2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFirst2ViewController.h; sourceTree = "<group>"; };
+		C75C259A1D044DF500EE422E /* LFirst2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFirst2ViewController.m; sourceTree = "<group>"; };
 		C7B8AA7B1D002E94003B3EAF /* CCXMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCXMethods.h; sourceTree = "<group>"; };
 		C7B8AA7C1D002E94003B3EAF /* CCXMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCXMethods.m; sourceTree = "<group>"; };
 		C7B8AA7D1D002E94003B3EAF /* LRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRootViewController.h; sourceTree = "<group>"; };
@@ -57,6 +85,8 @@
 		C7B8AA8B1D004A7B003B3EAF /* LSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSecondViewController.m; sourceTree = "<group>"; };
 		C7B8AA8D1D005273003B3EAF /* LThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LThirdViewController.h; sourceTree = "<group>"; };
 		C7B8AA8E1D005273003B3EAF /* LThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LThirdViewController.m; sourceTree = "<group>"; };
+		C7C5919A1D01716D001EEF31 /* FeedModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedModel.h; sourceTree = "<group>"; };
+		C7C5919B1D01716D001EEF31 /* FeedModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedModel.m; sourceTree = "<group>"; };
 		C7CB25541D001405004FECA8 /* ApplePai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplePai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CB25581D001405004FECA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C7CB255A1D001405004FECA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,6 +103,18 @@
 		C7CB25781D001406004FECA8 /* ApplePaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplePaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CB257C1D001406004FECA8 /* ApplePaiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplePaiUITests.m; sourceTree = "<group>"; };
 		C7CB257E1D001406004FECA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7EABDEC1D06DD400049FBD7 /* LHeaderCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHeaderCollectionViewCell.h; sourceTree = "<group>"; };
+		C7EABDED1D06DD400049FBD7 /* LHeaderCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHeaderCollectionViewCell.m; sourceTree = "<group>"; };
+		C7EABDEE1D06DD400049FBD7 /* LHeaderCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LHeaderCollectionViewCell.xib; sourceTree = "<group>"; };
+		C7EABDF11D07AE690049FBD7 /* LSecond2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSecond2ViewController.h; sourceTree = "<group>"; };
+		C7EABDF21D07AE690049FBD7 /* LSecond2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSecond2ViewController.m; sourceTree = "<group>"; };
+		C7EABDF71D07B01F0049FBD7 /* LSecond2FoodModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSecond2FoodModel.h; sourceTree = "<group>"; };
+		C7EABDF81D07B01F0049FBD7 /* LSecond2FoodModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSecond2FoodModel.m; sourceTree = "<group>"; };
+		C7EABDFB1D07C7C00049FBD7 /* ico_make.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_make.png; sourceTree = "<group>"; };
+		C7EABDFC1D07C7C00049FBD7 /* JSDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDropDownMenu.h; sourceTree = "<group>"; };
+		C7EABDFD1D07C7C00049FBD7 /* JSDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDropDownMenu.m; sourceTree = "<group>"; };
+		C7EABE001D07FF500049FBD7 /* LFoodTypeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFoodTypeModel.h; sourceTree = "<group>"; };
+		C7EABE011D07FF500049FBD7 /* LFoodTypeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFoodTypeModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +159,14 @@
 		C7B8AA841D002FB3003B3EAF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C7C5919A1D01716D001EEF31 /* FeedModel.h */,
+				C7C5919B1D01716D001EEF31 /* FeedModel.m */,
+				C7395A001D06B0E3008C00CC /* LSecondGroupMOdel.h */,
+				C7395A011D06B0E3008C00CC /* LSecondGroupMOdel.m */,
+				C7EABDF71D07B01F0049FBD7 /* LSecond2FoodModel.h */,
+				C7EABDF81D07B01F0049FBD7 /* LSecond2FoodModel.m */,
+				C7EABE001D07FF500049FBD7 /* LFoodTypeModel.h */,
+				C7EABE011D07FF500049FBD7 /* LFoodTypeModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -124,6 +174,14 @@
 		C7B8AA851D002FBF003B3EAF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C75C258D1D0198F500EE422E /* LFirstTableViewCell.h */,
+				C75C258E1D0198F500EE422E /* LFirstTableViewCell.m */,
+				C7395A0A1D06B4D4008C00CC /* LSecondCollectionViewCell.h */,
+				C7395A0B1D06B4D4008C00CC /* LSecondCollectionViewCell.m */,
+				C7395A0C1D06B4D4008C00CC /* LSecondCollectionViewCell.xib */,
+				C7EABDEC1D06DD400049FBD7 /* LHeaderCollectionViewCell.h */,
+				C7EABDED1D06DD400049FBD7 /* LHeaderCollectionViewCell.m */,
+				C7EABDEE1D06DD400049FBD7 /* LHeaderCollectionViewCell.xib */,
 			);
 			name = Views;
 			path = Models/Views;
@@ -138,6 +196,12 @@
 				C7B8AA8B1D004A7B003B3EAF /* LSecondViewController.m */,
 				C7B8AA8D1D005273003B3EAF /* LThirdViewController.h */,
 				C7B8AA8E1D005273003B3EAF /* LThirdViewController.m */,
+				C75C258A1D01833B00EE422E /* LTabBarViewController.h */,
+				C75C258B1D01833B00EE422E /* LTabBarViewController.m */,
+				C75C25991D044DF500EE422E /* LFirst2ViewController.h */,
+				C75C259A1D044DF500EE422E /* LFirst2ViewController.m */,
+				C7EABDF11D07AE690049FBD7 /* LSecond2ViewController.h */,
+				C7EABDF21D07AE690049FBD7 /* LSecond2ViewController.m */,
 			);
 			name = Controllers;
 			path = Models/Views/Controllers;
@@ -146,6 +210,7 @@
 		C7CB254B1D001405004FECA8 = {
 			isa = PBXGroup;
 			children = (
+				C7EABDFA1D07C7C00049FBD7 /* JSDropDownMenu */,
 				C7B8AA841D002FB3003B3EAF /* Models */,
 				C7B8AA851D002FBF003B3EAF /* Views */,
 				C7B8AA861D002FE1003B3EAF /* Controllers */,
@@ -172,6 +237,7 @@
 		C7CB25561D001405004FECA8 /* ApplePai */ = {
 			isa = PBXGroup;
 			children = (
+				C75C25971D043DB000EE422E /* Foundation+Log 2.m */,
 				C7CB255A1D001405004FECA8 /* AppDelegate.h */,
 				C7CB255B1D001405004FECA8 /* AppDelegate.m */,
 				C7CB255D1D001405004FECA8 /* ViewController.h */,
@@ -181,6 +247,7 @@
 				C7CB25651D001405004FECA8 /* LaunchScreen.storyboard */,
 				C7CB25681D001405004FECA8 /* Info.plist */,
 				C7CB25571D001405004FECA8 /* Supporting Files */,
+				C75C25961D04180600EE422E /* DEFINE.h */,
 			);
 			path = ApplePai;
 			sourceTree = "<group>";
@@ -209,6 +276,16 @@
 				C7CB257E1D001406004FECA8 /* Info.plist */,
 			);
 			path = ApplePaiUITests;
+			sourceTree = "<group>";
+		};
+		C7EABDFA1D07C7C00049FBD7 /* JSDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C7EABDFB1D07C7C00049FBD7 /* ico_make.png */,
+				C7EABDFC1D07C7C00049FBD7 /* JSDropDownMenu.h */,
+				C7EABDFD1D07C7C00049FBD7 /* JSDropDownMenu.m */,
+			);
+			path = JSDropDownMenu;
 			sourceTree = "<group>";
 		};
 		DFFF482F14254EFE62B0C428 /* Pods */ = {
@@ -335,8 +412,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7CB25671D001405004FECA8 /* LaunchScreen.storyboard in Resources */,
+				C7EABDFE1D07C7C00049FBD7 /* ico_make.png in Resources */,
+				C7395A0E1D06B4D4008C00CC /* LSecondCollectionViewCell.xib in Resources */,
 				C7CB25641D001405004FECA8 /* Assets.xcassets in Resources */,
 				C7CB25621D001405004FECA8 /* Main.storyboard in Resources */,
+				C7EABDF01D06DD400049FBD7 /* LHeaderCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,14 +490,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7B8AA8F1D005273003B3EAF /* LThirdViewController.m in Sources */,
+				C7C5919C1D01716D001EEF31 /* FeedModel.m in Sources */,
+				C75C25981D043DB000EE422E /* Foundation+Log 2.m in Sources */,
 				C7CB255F1D001405004FECA8 /* ViewController.m in Sources */,
+				C7EABDEF1D06DD400049FBD7 /* LHeaderCollectionViewCell.m in Sources */,
 				C7B8AA8C1D004A7B003B3EAF /* LSecondViewController.m in Sources */,
+				C7395A0D1D06B4D4008C00CC /* LSecondCollectionViewCell.m in Sources */,
+				C7395A021D06B0E3008C00CC /* LSecondGroupMOdel.m in Sources */,
 				C7B8AA821D002E94003B3EAF /* LRootViewController.m in Sources */,
 				C7B8AA811D002E94003B3EAF /* CCXMethods.m in Sources */,
+				C7EABDF31D07AE690049FBD7 /* LSecond2ViewController.m in Sources */,
+				C75C259B1D044DF500EE422E /* LFirst2ViewController.m in Sources */,
 				C7B8AA831D002E94003B3EAF /* LSuperViewController.m in Sources */,
 				C7CB255C1D001405004FECA8 /* AppDelegate.m in Sources */,
+				C7EABE021D07FF500049FBD7 /* LFoodTypeModel.m in Sources */,
 				C7CB25591D001405004FECA8 /* main.m in Sources */,
+				C75C258C1D01833B00EE422E /* LTabBarViewController.m in Sources */,
 				C7B8AA891D004A6A003B3EAF /* LFirstViewController.m in Sources */,
+				C75C258F1D0198F500EE422E /* LFirstTableViewCell.m in Sources */,
+				C7EABDFF1D07C7C00049FBD7 /* JSDropDownMenu.m in Sources */,
+				C7EABDF91D07B01F0049FBD7 /* LSecond2FoodModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,6 +653,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bwf.ApplePai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
@@ -573,6 +666,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bwf.ApplePai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
